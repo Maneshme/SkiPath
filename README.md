@@ -1,5 +1,5 @@
 # SkiPath
-This application is to find the best ski path from a 2 dimensional array containing the elevation of the mountains.
+This application is to find the best ski path from a 2 dimensional array containing the elevation of the mountains. This application is written using Google Go
 
 The sample array considered here is a 5x5 array
 
