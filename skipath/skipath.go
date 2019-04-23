@@ -5,28 +5,28 @@ import (
 )
 
 func main() {
-	// elevationMap := [][]int {
-	// 	{4, 8, 7, 3},
-	// 	{2, 5, 9, 3}, 
-	// 	{6, 3, 2, 5}, 
-	// 	{4, 4, 1, 6},
-	// }
-
-	// bestPath := FindBestSkiPath(elevationMap)
-	// fmt.Printf("The best ski path is: %+v\n", bestPath)
-	// fmt.Printf("Depth: %d", bestPath[0] - bestPath[len(bestPath) - 1])
-
-	elevationMap2 := [][]int{
-		{4, 8, 7, 32, 10},
-		{21, 57, 94, 36, 8},
-		{62, 39, 25, 58, 67},
-		{48, 5, 10, 66, 39},
-		{54, 2, 0, 31, 41},
+	elevationMap := [][]int {
+		{4, 8, 7, 3},
+		{2, 5, 9, 3}, 
+		{6, 3, 2, 5}, 
+		{4, 4, 1, 6},
 	}
 
-	bestPath2 := FindBestSkiPath(elevationMap2)
-	fmt.Printf("The best ski path is: %+v\n", bestPath2)
-	fmt.Printf("Depth: %d", bestPath2[0] - bestPath2[len(bestPath2) - 1])
+	bestPath := FindBestSkiPath(elevationMap)
+	fmt.Printf("The best ski path is: %+v\n", bestPath)
+	fmt.Printf("Depth: %d", bestPath[0] - bestPath[len(bestPath) - 1])
+
+	// elevationMap2 := [][]int{
+	// 	{4, 8, 7, 32, 10},
+	// 	{21, 57, 94, 36, 8},
+	// 	{62, 39, 25, 58, 67},
+	// 	{48, 5, 10, 66, 39},
+	// 	{54, 2, 0, 31, 41},
+	// }
+
+	// bestPath2 := FindBestSkiPath(elevationMap2)
+	// fmt.Printf("The best ski path is: %+v\n", bestPath2)
+	// fmt.Printf("Depth: %d", bestPath2[0] - bestPath2[len(bestPath2) - 1])
 }
 
 // findBestSkiPath is to find the best ski path from the elevation map
